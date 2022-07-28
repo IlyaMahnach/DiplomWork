@@ -12,7 +12,7 @@
 **Тестирование было проведено для двух баз данных - MySQL и PostgreSQL.**
 
 
-[Перечень выявленых ошибок.](https://github.com/IlyaMahnach/DiplomWork/issues)
+[Перечень выявленных ошибок.](https://github.com/IlyaMahnach/DiplomWork/issues)
 
 
 ## Общие рекомендации

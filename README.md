@@ -66,6 +66,8 @@
 
 5. Запустить SUT во вкладке Terminal Intellij IDEA командой: `java -jar artifacts/aqa-shop.jar`
 
-6. Для запуска авто-тестов в Terminal Intellij IDEA открыть новую сессию и ввести команду: `./gradlew clean test -Durl="jdbc:mysql://localhost:3306/app" -Duser="app" -Dpassword="pass" --info`
+6. В файле `build.gradle` выбрать с какой базой данных будем работать.
+
+6. Для запуска авто-тестов в Terminal Intellij IDEA открыть новую сессию и ввести команду: `./gradlew clean test allureReport -Dheadless=true`
 
 

@@ -60,7 +60,7 @@
 
 2. Скопировать репозиторий: `git clone https://github.com/IlyaMahnach/DiplomWork.git`
 
-3. Запустить контейнер, в котором разворачивается база данных (далее БД) docker-compose up -d --force-recreate
+3. Запустить контейнер, в котором разворачивается база данных (далее БД) `docker-compose up -d --force-recreate`
 
 4. Убедиться в том, что БД готова к работе (логи смотреть через `docker-compose logs -f <applicationName> (mysql или postgres)`
 
